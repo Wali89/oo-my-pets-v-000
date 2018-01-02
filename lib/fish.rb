@@ -5,4 +5,7 @@ class Fish
     @name = name
   end
 
+  def name
+    self.name
+  end
 end
