@@ -4,7 +4,7 @@ class Owner
   @@all = []
   @@counter = 0
 
-  def initialize(name)
+  def initialize(species, name=)
     @pets = {fishes: [], cats: [], dogs: []}
     @name = name
     @@all << self
