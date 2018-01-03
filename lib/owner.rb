@@ -5,7 +5,7 @@ class Owner
   @@counter = 0
 
   def initialize(species)
-    @pets = {fishes: [], cats: [], dogs: []}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
     @species = species
     @@all << self
     @@counter += 1
