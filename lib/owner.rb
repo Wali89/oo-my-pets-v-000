@@ -43,5 +43,5 @@ class Owner
     dog = Dog.new(name)
     pets[:dog] << dog
   end
-  
+
 end
