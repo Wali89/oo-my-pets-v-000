@@ -24,4 +24,7 @@ class Owner
     @@counter
   end
 
+  def say_species
+    self.species
+  end
 end
