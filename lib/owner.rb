@@ -1,5 +1,5 @@
 class Owner
-  attr_reader 
+  attr_reader
   attr_accessor :name
   @@all = []
   @@counter = 0
