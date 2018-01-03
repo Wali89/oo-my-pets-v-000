@@ -1,5 +1,5 @@
 class Owner
-  attr_reader
+  attr_reader :name
   attr_accessor
   @@all = []
   @@counter = 0
@@ -23,4 +23,5 @@ class Owner
   def self.count
     @@counter
   end
+
 end
