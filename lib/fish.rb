@@ -5,6 +5,7 @@ class Fish
   def initialize(name)
     @name = name
     @mood = "nervous"
+    self.pets:fishes << fish
   end
 
 end
